@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+
+body {
+  font-family: "Roboto", serif;
+  background-image: url(../img/horoscope_bkgr.jpg);
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 0;
+  text-align: center;
+}
+
+a{
+  color: rgb(255, 255, 255);
+  transition: all 0.1s linear;
+}
+a:hover{
+  color: rgb(131, 131, 131);
+}
+
+table {
+    margin: 0 auto;
+     
+}
+
+th {
+  width: 100px;
+  height: 30px;
+}
+
+td {
+  width: 100px;
+  height: 30px;
+}
+
+.thead {
+  height: 40px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.content {
+  width: 1000px;
+   
+  padding: 10px;
+  
+   
+}
+
+
+.button__img{
+    
+
+}
+
+
+table img {
+  width: 80%;
+  margin: 0 10px 10px 0;
+}
+
+
+.telets{
+     
+    width: 400px;
+     
+    border-radius: 0 0 10px 0;
+    float: left;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 25PX;
+}
